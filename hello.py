@@ -1,8 +1,6 @@
 import pandas as pd
+import sys
 
-df = pd.DataFrame(
-    {'id': [1,2,3],
-     'nama': ['bagas', 'aji', 'riyad']}
-)
+day = sys.argv[1]
 
-print(df)
+print("sekarang tanggal " + day)

@@ -5,4 +5,4 @@ RUN pip install pandas
 WORKDIR /app
 COPY hello.py hello.py 
 
-ENTRYPOINT [ "bash" ]
+ENTRYPOINT [ "python", "hello.py" ]
